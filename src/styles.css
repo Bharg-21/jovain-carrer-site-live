@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+    font-size:1rem;
+    color :#444444;
+}
+h1{
+    text-align : center;
+    font-family:'Inter',sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    color:#222222;
+}
+#carrer{
+    width : 100%;
+    
+}
+.location{
+    color :grey;
+    margin-bottom:10px;
+
+}
+body{
+    margin:10px;
+    padding:0;
+    font-family:sans-serif;
+}
+#navbar{
+    width:10px;
+    height : 20px;
+    margin-bottom:70px;
+}
+#about{
+    display:flex;
+    max-width : 800px;
+    margin:0 auto;
+    padding-right:8px;
+    
+}
+#description{
+    width:50%;
+    
+    
+}
+#anotherdes{
+    width:50%;
+    padding-left : 100px;
+
+    
+}#teamwork{
+    border-radius:5px;
+    width:100%;
+}
+h2{
+    text-align:center;
+    font-family:'Inter',sans-serif;
+}
+#jobs{
+    max-width :800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+.job-role{
+    margin-bottom:0px;
+    margin-top : 0px;
+}
+.apply{
+    float:right;
+    text-decoration:none;
+    
+}
+.link{
+    text-decoration: none;
+
+
+}
+#footer{
+    background-color:ghostwhite;
+    padding:8px;
+    margin-top:36px;
+    text-align:center;
+
+}
+#footer-links{
+    list-style:none;
+    
+    
+}
+#footer-links li{
+    display:inline;
+    margin-right:20px;
+}
+.copyright{
+    color:gray;
+}
+#courses{
+    margin-top:0px;
+    margin:0 auto;
+    padding:8px;
+}
+#jobs-table{
+    width:100%;
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+.job-data-row{
+    border:1px solid gray;
+}
+.job-header-row th{
+    border:1px solid gray;
+    padding:8px;
+    background-color: rgba(0, 213, 255, 0);
+    text-align:center;
+
+}
+.job-data-row td{
+    border:1px solid gray;
+    padding:8px;
+}
+#jobs-table tr :nth-child(odd){
+    background-color:rgba(181, 169, 179, 0.914);
+}
+#application{
+    max-width:800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+#application-form label{
+    font-weight:600;
+    
+
+}
+#application-form input,select,textarea{
+    padding:4px;
+    border-radius:5px;
+    font-size:1.25rem;
+}
+.form-group{
+    margin:10px;
+}
+.form-group textarea{
+    width:80%;
+    font-family:'Inter',sans-serif;
+}
+#resume{
+    border : 2px solid black;
+}
+#submit{
+    background-color: rgb(74, 28, 202);
+    color:rgba(255, 255, 255, 0.914);
+    
+}
