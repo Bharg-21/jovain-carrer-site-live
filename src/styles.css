@@ -1,4 +1,246 @@
-body{
+/* for the normal devices */
+html{
+    font-size:14px;
+
+}
+ body{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+    font-size:1em;
+    color :#444444;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    color:#222222;
+}
+a{
+    text-decoration: none;
+    color:#3E82F6;
+}
+a:hover,a:focus{
+    color:#1D4ED8;
+}
+#navbar{
+    width:10px;
+    height : 20px;
+    margin-bottom:70px;
+    display:inline;
+}
+#logo-with-name{
+    display:none;
+
+}
+#carrer{
+    object-fit:cover;
+    height:220px;
+    width:100%;
+    
+}
+h1{
+    text-align:center;
+    
+}
+#about{
+    display:flex;
+    flex-direction:column;
+    max-width:500px;
+    margin:0 auto;
+    padding:8px;
+}
+#description{
+    font: size 1.5rem;
+}
+#teamwork{
+    border-radius:5px;
+    width:100%;
+}
+h2{
+    text-align:center;
+}
+#jobs{
+    max-width:500px;
+    margin:0 auto;
+    padding:0 
+}
+#jobs-list{
+    display:block;
+}
+#jobs-table{
+    display:none;
+}
+.job{
+    border:1px solid #DDDDDD;
+    margin-top : 8px;
+    border-radius:5px;
+    padding:10px;
+}
+.job-title{
+    font-size:1.25rem;
+    font-weight:500;
+    color:#222222;
+
+
+}
+.job-details{
+    margin-top:4px;
+    color:#555555;
+
+}
+#application{
+    max-width:500px;
+    margin:0 auto;
+    padding:0 8px;
+}
+.form-group label{
+    font-weight:600;
+    width:80%;
+    
+
+}
+.form-group input,select,textarea{
+    width:90%;
+    padding:4px;
+    border-radius:5px;
+    font-size:1.25rem;
+}
+.form-group{
+    margin:10px;
+}
+.form-group textarea{
+    width:80%;
+    font-family:'Inter',sans-serif;
+}
+#resume{
+    border : 2px solid black;
+}
+#submit{
+    background-color: rgb(74, 28, 202);
+    color:rgba(255, 255, 255, 0.914);
+    
+}
+#footer{
+    background-color:ghostwhite;
+    padding:8px;
+    margin-top:36px;
+    text-align:center;
+
+}
+#footer-links{
+    list-style:none;
+    padding-left:0px;
+}
+#footer-links li{
+    
+    margin:0 16px;
+}
+.copyright{
+    color:#71717A;
+    font-size:0.85rem;
+}
+
+
+
+/* for the tablets */
+@media screen and (min-width:576px){
+    html{
+        font-size:16px;
+    }
+    #logo{
+        display:none;
+    }
+    #carrer{
+        height:200px;
+    }
+    h1{
+        margin:12px 0px;
+    }
+    #about{
+        max-width:500px;
+    }
+    .form-group input,select{
+        width:auto;
+
+    }
+    .form-group textarea{
+        width:80%;
+    }
+}
+
+
+
+/* medium devices(laptops)*/
+@media screen and (min-width:768px){
+    #carrer{
+        height:250px;
+    }
+    h1{
+        margin:20px 0px;
+    }
+    #about{
+        max-width:800px;
+        flex-direction:row;
+    }
+    #description{
+        width:50%;
+        padding-right:8px;
+    }
+    #teamwork{
+        width:400px;
+        height:100%;
+    }
+    #jobs{
+        min-width:800px;
+    }
+    #jobs-list{
+        display:none;
+    }
+    #jobs-table{
+        display:table;
+        width:100%;
+        border:1px solid gray;
+        border-collapse:collapse;
+    }
+    
+.job-data-row{
+    border:1px solid gray;
+}
+.job-header-row th{
+    border:1px solid gray;
+    padding:8px;
+    background-color: rgba(0, 213, 255, 0);
+    text-align:center;
+
+}
+.job-data-row td{
+    border:1px solid gray;
+    padding:8px;
+}
+#jobs-table tr :nth-child(odd){
+    background-color:rgba(181, 169, 179, 0.914);
+}
+
+}
+/* large devices(desktops)*/
+@media screen and (min-width:992px){
+html{
+    font-size:20px;
+}
+#application{
+    max-width:800px;
+}
+}
+
+/* extra large devices */
+@media screen and (min-width:1200px){
+
+}
+
+
+
+
+/* body{
     margin:0;
     padding:0;
     font-family:'Roboto',sans-serif;
@@ -23,6 +265,13 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom:10px;
 
 }
+@media screen and (min-width:400px) and (max-width:700px){
+    body{
+        background-color:lightblue;
+    }
+}
+    
+        
 body{
     margin:10px;
     padding:0;
@@ -152,4 +401,4 @@ h2{
     background-color: rgb(74, 28, 202);
     color:rgba(255, 255, 255, 0.914);
     
-}
+} */
